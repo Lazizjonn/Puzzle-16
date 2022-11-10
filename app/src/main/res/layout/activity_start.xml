@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood_orginal"
+    android:orientation="vertical"
+    tools:context=".StartActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/puzzle_15" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:text="@string/puzzle_game"
+        android:textColor="@color/app_color"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/start_game"
+        style="@style/for_main_activity"
+        android:background="@drawable/custom_button_for_main"
+        android:foreground="?android:selectableItemBackgroundBorderless"
+        android:drawableStart="@drawable/start"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/start_game" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/statistics"
+        style="@style/for_main_activity"
+        android:background="@drawable/custom_button_for_main"
+        android:drawableStart="@drawable/statistics"
+        android:gravity="center"
+        android:foreground="?android:selectableItemBackgroundBorderless"
+        android:padding="10dp"
+        android:text="@string/statistics" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/about_game"
+        style="@style/for_main_activity"
+        android:background="@drawable/custom_button_for_main"
+        android:drawableStart="@drawable/ic_about"
+        android:gravity="center"
+        android:foreground="?android:selectableItemBackground"
+        android:padding="10dp"
+        android:text="@string/about_game"
+        android:textColor="@color/app_color" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/exit"
+        style="@style/for_main_activity"
+        android:background="@drawable/custom_button_for_main"
+        android:drawableStart="@drawable/exit"
+        android:foreground="?android:selectableItemBackground"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/exit_" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

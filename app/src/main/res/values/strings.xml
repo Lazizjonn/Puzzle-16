@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">puzzle</string>
+
+    <!--about game activity-->
+    <string name="about_game_text">\n The puzzle is having 15 square tiles numbered 1–15 in a frame that is 4 tiles high and 4 tiles wide,
+        leaving one unoccupied tile position. Tiles in the same row or column of the open position can be moved by sliding them horizontally or vertically,
+        respectively. The goal of the puzzle is to place the tiles in numerical order. \n Developed by Lazizjon Suyunov who is studying in GITA academy. It is my first app in the first week.
+    </string>
+    <!--about game activity-->
+
+    <!--enter your name activity-->
+    <string name="enter_your_name">Enter your name :</string>
+    <string name="mandatory">enter here (it is compulsory )</string>
+    <string name="start_game">Start Game</string>
+    <!--enter your name activity-->
+
+    <!--main activity-->
+    <!--main activity-->
+
+    <!--quit activity-->
+    <string name="exit">Do you want to exit ?</string>
+    <!--quit activity-->
+
+    <!--start activity-->
+    <string name="new_game">New game</string>
+    <string name="statistics">Statistics</string>
+    <string name="about_game">About game</string>
+    <string name="exit_">Exit</string>
+    <string name="puzzle_game">Puzzle game</string>
+    <!--start activity-->
+
+    <!--statistics activity-->
+    <!--statistics activity-->
+
+</resources>
